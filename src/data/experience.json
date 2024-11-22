@@ -1,0 +1,38 @@
+[
+  {
+    "type": "bootcamp",
+    "title": "2023 Complete Front-End Engineer Career With ReactJS ",
+    "company": "Alterra Indonesia",
+    "location": "Malang, Jawa Timur",
+    "role": "Cohort, Participant",
+    "detail": "Front-End ReactJS Developer training organized by Alterra Academy from Studi Independen Batch 5 by Kampus Merdeka. Here I learned to create a web from the basics using HTML, CSS, and Javascript. Followed by using the ReactJS library from using state management, retrieving data from the API, and implementing AI in the project. In this program, I also learned about UI/UX and Version Control with Github. At the end of the program, participants worked on the Capstone Project.",
+    "date": "Agustus 2023 - Desember 2023"
+  },
+  {
+    "type": "intern",
+    "title": "Computer Laboratories",
+    "company": "Universitas Dian Nuswantoro",
+    "location": "Semarang, Jawa Tengah",
+    "role": "IT Support",
+    "detail": "Responsible for maintaining the computer laboratory, which includes managing computer hardware, installing and updating software, overseeing local network operations, and providing assistance and support to laboratory users. Additionally, the position involves troubleshooting technical issues, performing regular maintenance, and implementing improvements to enhance the overall functionality and usability of the laboratory.",
+    "date": "Maret 2022 - November 2024"
+  },
+  {
+    "type": "work",
+    "title": "CAT Akademi Polisi",
+    "company": "Universitas Dian Nuswantoro",
+    "location": "Semarang, Jawa Tengah",
+    "role": "Technical Committee",
+    "detail": "Ensure all facilities and infrastructure such as computers ranging from hardware and software, networks, and supporting equipment to support the Computer Assisted Test (CAT) Akademi Kepolisian and ensure that technically the event runs smoothly during the event.",
+    "date": "Juli, 2022-2024"
+  },
+  {
+    "type": "work",
+    "title": "CAT Seleksi CASN Kota Tegal & Kota Semarang",
+    "company": "Universitas Dian Nuswantoro",
+    "location": "Semarang, Jawa Tengah",
+    "role": "Technical Committee",
+    "detail": "Ensure all facilities and infrastructure such as computers ranging from hardware and software, networks, and supporting equipment to support the Computer Assisted Test (CAT) Seleksi Calon Aparatur Sipil Negara and ensure that technically the event runs smoothly during the event.",
+    "date": "November 2023"
+  }
+]
