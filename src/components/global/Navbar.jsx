@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <header className="fixed inset-x-0 my-7 mx-4 md:mx-20 px-10 md:px-20 py-4 border-gray-200 shadow-md z-50 rounded-full">
+      <header className="fixed inset-x-0 my-7 mx-4 md:mx-20 px-10 md:px-20 py-4 border-gray-200 z-50 ">
         <nav>
           {/* desktop */}
           <ul className="hidden lg:flex justify-around items-center w-full">
@@ -33,12 +33,12 @@ function Navbar() {
               <a className="text-xl text-white hover:text-red-400">Education</a>
             </li> */}
             <li>
-              <a
-                href="#contact"
+              <Link
                 className="text-xl text-white hover:text-red-400"
+                to="/contact"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
           {/* mobile */}
