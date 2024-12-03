@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <AnimatePresence mode="wait">
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

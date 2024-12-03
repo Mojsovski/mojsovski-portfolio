@@ -11,21 +11,31 @@ import Transition from "../components/global/Transition";
 function Project() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="h-screen relative bg-black">
         <div className="px-5 md:px-20 py-36 flex flex-col gap-12 bg-black relative">
-          <h1 className="text-center text-4xl md:text-5xl text-white">
+          <motion.h1
+            initial={{ y: -70, opacity: 0 }}
+            animate={{ y: 0, opacity: 100 }}
+            transition={{ duration: 0.5, ease: "anticipate" }}
+            className="text-center text-4xl md:text-5xl text-white"
+          >
             Project
-          </h1>
+          </motion.h1>
           {/* Tech Stack */}
           <div className="flex flex-col gap-7">
-            <h2 className="text-center text-2xl md:text-3xl text-white">
+            <motion.h2
+              initial={{ y: -70, opacity: 0 }}
+              animate={{ y: 0, opacity: 100 }}
+              transition={{ duration: 0.5, ease: "anticipate", delay: 0.2 }}
+              className="text-center text-2xl md:text-3xl text-white"
+            >
               Tech Stack That I Use
-            </h2>
+            </motion.h2>
             <motion.div
               initial={{ y: -70, opacity: 0 }}
               animate={{ y: 0, opacity: 100 }}
-              transition={{ duration: 0.5, ease: "anticipate" }}
+              transition={{ duration: 0.5, ease: "anticipate", delay: 0.3 }}
               className="mx-auto px-5  md:px-48 flex flex-wrap gap-5 md:gap-9 justify-center items-center"
             >
               {iconsProject.map((data, index) => {
@@ -44,9 +54,14 @@ function Project() {
           {/* Project */}
           <div className="flex flex-col gap-7 relative">
             <div className="flex justify-center px-20 gap-5">
-              <h2 className="text-center text-2xl md:text-lg text-white">
+              <motion.h2
+                initial={{ y: 70, opacity: 0 }}
+                animate={{ y: 0, opacity: 100 }}
+                transition={{ duration: 0.5, ease: "anticipate", delay: 0.2 }}
+                className="text-center text-2xl md:text-lg text-white"
+              >
                 My Project
-              </h2>
+              </motion.h2>
               {/* <button className="text-center text-2xl md:text-lg text-white">
                 All
               </button>
@@ -57,7 +72,12 @@ function Project() {
                 Mobile
               </button> */}
             </div>
-            <div className=" md:px-10 flex flex-wrap gap-5 justify-center items-center relative">
+            <motion.div
+              initial={{ y: 70, opacity: 0 }}
+              animate={{ y: 0, opacity: 100 }}
+              transition={{ duration: 0.5, ease: "anticipate", delay: 0.1 }}
+              className=" md:px-10 flex flex-wrap gap-5 justify-center items-center relative"
+            >
               {listProject.map((data, index) => {
                 return (
                   <Card
@@ -68,7 +88,7 @@ function Project() {
                   />
                 );
               })}
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

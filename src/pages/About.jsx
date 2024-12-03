@@ -27,7 +27,7 @@ function About() {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="h-screen relative bg-black">
         <div className="px-5 md:px-20 py-36 flex flex-col gap-24 bg-black">
           {/* about */}

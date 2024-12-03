@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <ParticleComponent />
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="h-screen px-10 md:px-20 pt-28 relative">
         <div className="lg:mx-52 h-[600px] flex flex-col justify-center items-center   ">
           <div className="h-3/5 text-center text-white space-y-2 flex flex-col justify-center ">

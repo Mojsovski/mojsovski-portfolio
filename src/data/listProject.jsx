@@ -13,22 +13,4 @@ export const listProject = [
     detail:
       "A web application used to manage and record inventory in a computer laboratory.",
   },
-  {
-    title: "Pusat Kontrol Laboran",
-    image: image.pkl,
-    detail:
-      "A web application used to manage and record inventory in a computer laboratory.",
-  },
-  {
-    title: "Pusat Kontrol Laboran",
-    image: image.pkl,
-    detail:
-      "A web application used to manage and record inventory in a computer laboratory.",
-  },
-  {
-    title: "Pusat Kontrol Laboran",
-    image: image.pkl,
-    detail:
-      "A web application used to manage and record inventory in a computer laboratory.",
-  },
 ];
