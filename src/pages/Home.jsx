@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/global/Navbar";
 import ParticleComponent from "../components/global/Particles";
-import TextAnimation from "../components/global/TextAnimation.Jsx";
+import TextRunning from "../components/global/TextRunning.jsx";
 import { motion } from "motion/react";
 import Transition from "../components/global/Transition";
 
@@ -16,7 +16,7 @@ function Home() {
           <div className="h-3/5 text-center text-white space-y-2 flex flex-col justify-center ">
             <h2 className="text-2xl">Hi there 👋 , i'm</h2>
             <h1 className="text-6xl ">Amratta Tegar Lazuardy</h1>
-            <TextAnimation />
+            <TextRunning />
           </div>
           <div className="w-1/2 space-y-2">
             {/* <h2 className=" text-center text-white text-lg">

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-const TextAnimation = () => {
+const TextRunning = () => {
   const [text] = useTypewriter({
     words: ["Junior Front-End Developer", "IT Support", "Fresh Graduate"],
     loop: {},
@@ -17,4 +17,4 @@ const TextAnimation = () => {
   );
 };
 
-export default TextAnimation;
+export default TextRunning;
