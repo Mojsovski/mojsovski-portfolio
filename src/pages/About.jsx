@@ -45,11 +45,11 @@ function About() {
                 initial={{ y: -50, opacity: 0 }}
                 animate={{ y: 0, opacity: 100 }}
                 transition={{ duration: 0.2, delay: 0.2, ease: "linear" }}
-                className="w-full md:w-[400px] h-[400px]"
+                className="w-full md:w-[400px] h-[400px]  "
               >
                 <img
-                  className="aspect-auto w-full h-full object-cover rounded-3xl"
-                  src={image.author}
+                  className="aspect-auto w-full h-full object-cover object-top rounded-3xl border-white border-2 shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] "
+                  src={image.author1}
                 />
               </motion.div>
               <motion.div
