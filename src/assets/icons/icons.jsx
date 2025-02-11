@@ -8,14 +8,16 @@ import {
   BiLogoJavascript,
   BiLogoRedux,
   BiLogoGmail,
+  BiLogoTypescript,
 } from "react-icons/bi";
 import { FaBootstrap } from "react-icons/fa";
-import { SiAxios, SiVite } from "react-icons/si";
+import { SiAxios, SiVite, SiExpress } from "react-icons/si";
 import {
   RiInstagramFill,
   RiLinkedinBoxFill,
   RiGithubFill,
   RiTelegramFill,
+  RiNextjsFill,
 } from "react-icons/ri";
 
 import zustandIconUrl from "../icons/zustand.svg?url";
@@ -42,6 +44,9 @@ export const iconsProject = [
   { name: "Axios", icons: SiAxios },
   { name: "Redux", icons: BiLogoRedux },
   { name: "Zustand", icons: iconZustand },
+  { name: "Typescript", icons: BiLogoTypescript },
+  { name: "NextJS", icons: RiNextjsFill },
+  { name: "Express", icons: SiExpress },
 ];
 
 export const iconsLink = [

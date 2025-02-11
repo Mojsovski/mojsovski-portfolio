@@ -43,9 +43,10 @@ function Project() {
                 return (
                   <div
                     key={index}
-                    className="bg-white p-2 md:size-28 size-24 rounded-3xl flex flex-col justify-center items-center"
+                    className="bg-white p-3 md:size-28 size-24 rounded-3xl flex flex-col justify-center items-center"
                   >
                     <Icons className="md:size-20 size-16" />
+                    {/* <p className="text-sm font-medium">{data.name}</p> */}
                   </div>
                 );
               })}
